@@ -1,94 +1,97 @@
-# heart-disease-prediction-ml
-A machine learning project that predicts the risk of heart disease based on patient medical attributes using Logistic Regression. Includes data preprocessing, exploratory data analysis, model training, and evaluation using accuracy, confusion matrix, and ROC-AUC curve.
 # 💓 Heart Disease Prediction using Machine Learning
 
-## 📌 Project Overview
-This project predicts whether a person is at risk of heart disease using machine learning techniques based on medical data.
+## 📌 Project Description
+A machine learning project that predicts the risk of heart disease based on patient medical attributes using Logistic Regression. The project includes data preprocessing, exploratory data analysis (EDA), model training, and evaluation using multiple performance metrics.
 
 ---
 
 ## 🎯 Objective
-To build a classification model that can predict heart disease using patient health attributes.
+To build a binary classification model that can predict whether a person is at risk of heart disease based on health-related features.
 
 ---
 
 ## 📊 Dataset
 - Source: UCI Heart Disease Dataset (Kaggle)
-- Contains features like age, sex, chest pain type, blood pressure, cholesterol, etc.
+- Contains medical attributes such as:
+  age, sex, chest pain type, blood pressure, cholesterol, and more.
 
 ---
 
-## 🧠 Workflow
+## 🧠 Project Workflow
 
 ### 1. Data Collection
 Loaded dataset using Pandas.
 
 ### 2. Data Cleaning
-- Removed duplicates
-- Checked missing values
-- Reset index
+- Removed duplicate records  
+- Checked missing values  
+- Reset dataset index  
 
 ### 3. Exploratory Data Analysis (EDA)
-Visualized:
-- Heart disease distribution
-- Age distribution
-- Gender vs disease
-- Chest pain vs disease
-- Correlation heatmap
+Performed visual analysis to understand:
+- Heart disease distribution  
+- Age distribution  
+- Gender vs disease relationship  
+- Chest pain vs heart disease  
+- Feature correlations  
 
 ### 4. Feature Selection
-Separated input features (X) and target (Y).
+Separated dataset into:
+- Input features (X)
+- Target variable (Y)
 
 ### 5. Model Training
-Used Logistic Regression model.
+Trained a Logistic Regression model for binary classification.
 
 ### 6. Model Evaluation
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
-- ROC-AUC Curve
+Evaluated performance using:
+- Accuracy Score  
+- Confusion Matrix  
+- Classification Report  
+- ROC-AUC Curve  
 
-### 7. Feature Importance
-Identified most important features affecting prediction.
+### 7. Feature Importance Analysis
+Identified the most influential features affecting heart disease prediction.
 
 ---
 
-## 🤖 Model Used
+## 🤖 Machine Learning Model
 - Logistic Regression
 
 ---
 
 ## 📊 Evaluation Metrics
-- Accuracy Score
-- Confusion Matrix
-- Precision, Recall, F1-score
-- ROC-AUC Curve
+- Accuracy Score  
+- Precision, Recall, F1-score  
+- Confusion Matrix  
+- ROC-AUC Curve  
 
 ---
 
 ## 📈 Results
-- Accuracy: (write your accuracy here)
-- ROC-AUC Score: (write your score here)
+- Accuracy: *(add your value)*  
+- ROC-AUC Score: *(add your value)*  
 
 ---
 
-## 🛠️ Libraries Used
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## 🛠️ Technologies Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
 ---
 
 ## 📌 Key Learnings
-- End-to-end Machine Learning pipeline
-- Data preprocessing and cleaning
-- Model evaluation techniques
-- Medical data interpretation
+- End-to-end machine learning workflow  
+- Data preprocessing and cleaning  
+- Exploratory data analysis (EDA)  
+- Model evaluation techniques  
+- Medical data interpretation  
 
 ---
 
 ## 👨‍💻 Author
-Your Name
+Talal Noor
